@@ -1,0 +1,45 @@
+#profile-img{
+    border-radius:50%;
+    border: 2px solid #306AA7;
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+}
+.navbar-text{
+    color: rgb(255, 255, 255)!important;
+    font-weight: 400;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.three-container{
+    position: fixed;
+    top: 64px;
+    height: 89vh;
+    // bottom: 30%;
+    width: calc(100vw - 3rem);
+   canvas{
+    border-radius: 40px;
+    background-color: #555;
+    // box-shadow: 0 0 50px 20px #555;
+   }
+}
+
+.three-js-card{
+    height: 89vh;
+    border-radius: 20px;
+}
+// .card-body{
+//     .col:first-child{
+       
+//             background-color: #555;
+//             box-shadow: 0 0 50px 20px #555;
+        
+//     }
+//     .col-md-4:first-child{
+        
+//             background-color: #555;
+//             box-shadow: 0 0 50px 20px #555;
+        
+//     }
+// }
