@@ -8,6 +8,8 @@ Supervisor: [Dr. Wei Liu](https://www.uts.edu.au/staff/wei.liu)
 
 Student: Baolong Zhang 
 
+Presentation video: https://youtu.be/mVv23h8roH4
+
 ---
 
 ## 1. Live Demo
