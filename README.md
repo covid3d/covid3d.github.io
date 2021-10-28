@@ -1,4 +1,4 @@
-# Covid-19 3D visuliaztion platform
+# Covid-3D online visuliaztion dashboard
 
 This is a research project for UTS 32933 Research Project.
 
@@ -13,6 +13,7 @@ Presentation video: https://youtu.be/mVv23h8roH4
 ---
 
 ## 1. Live Demo
+Here is the links to the live demo of the current version of covid-3D project.
 
 >    
 > https://covid3d.github.io/
