@@ -13,7 +13,7 @@ Presentation video: https://youtu.be/mVv23h8roH4
 ---
 
 ## 1. Live Demo
-Here is the links to the live demo of the current version of covid-3D project.
+Here are the links to the live demo of the current version of covid-3D project.
 
 >    
 > https://covid3d.github.io/
