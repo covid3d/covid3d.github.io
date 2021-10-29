@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Card, Col, Row} from "react-bootstrap";
+import { Button, Card, Col, Offcanvas, Row} from "react-bootstrap";
 
 import referenceImg from './reference.png'
 import Map from "./Map";
@@ -76,22 +76,24 @@ function MapContainer() {
       </Row>
       <Row>
           <Col xs={{span:10,offset:1}} style={{zIndex:10}}>
-          <Button data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" style={{height:35+'px'}}> Reference and data source</Button>
+          <Button className="button" onClick={handleShow} style={{height:35+'px',position:'relative',bottom:20+'px'}}> Reference and data source</Button>
          
           </Col>
       </Row>
       </Card.Body>
       
 
-      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body small">
-          <img src={referenceImg}></img>
-        </div>
-      </div>
+
+    <Offcanvas show={show} onHide={handleClose} placement='bottom'>
+      <Offcanvas.Header closeButton>
+        <Offcanvas.Title>Reference and data source</Offcanvas.Title>
+      </Offcanvas.Header>
+      <Offcanvas.Body>
+
+        <img src={referenceImg} alt='refer'></img>
+      </Offcanvas.Body>
+    </Offcanvas>
+       
     </Card>
   );
 }

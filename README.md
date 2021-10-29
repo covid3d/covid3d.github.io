@@ -42,6 +42,7 @@ This is the code for achieving this effects. Check the rate of how many cases pe
 
 ![preview](./public/record1.gif)
 
+
 On the left hand, there are two graphs. 
 
 - The `AreaChart` in bottom left shows the comparision of **new cases in last month between VIC , NSW and QLD**. 
@@ -55,6 +56,9 @@ On the left hand, there are two graphs.
 ![preview](./public/record2.gif)
 ![preview](./public/record3.gif)
 
+---
+Below figure shows the indicators the on the bar
+![preview](./public/bigScreenshot.png)
 ---
 
 ## 2. Getting Started
